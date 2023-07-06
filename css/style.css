@@ -1,0 +1,329 @@
+body {
+    margin-top: 3%;
+    background-color: #eee;
+    background-size: 500%;
+    animation: fAnimado 10s ease-in-out forwards;
+}
+
+@keyframes fAnimado {
+    to{
+        background-color: #c6ebf3;
+    }
+
+}
+
+.navegacion {
+    display: flex;
+    background-color: #000000;
+    justify-content: end;
+    margin: auto;
+    font-family: Calibri;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.inicio{
+    color: #FFFFFF;
+    margin-right: 920px;
+}
+
+
+.botones {
+    list-style: none;
+    display: inline;
+    padding: 16px;
+    color: white;
+    width: 10px;
+
+}
+
+.botones:hover {
+    background-color: #033857;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.contenedorIzquierdo {
+    font-family: Calibri;
+    width: 70%;
+    padding-right: 10px;
+}
+
+.contenedorDerecho {
+    width: 30%;
+    padding-top: 15%;
+    font-family: Calibri;
+    padding-left: 10px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.pieDePagina {
+    display: flex;
+    width: 100%;
+    background-color: #000000;
+    justify-content: center;
+    font-family: Calibri;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    height: 50px;
+    
+}
+
+span{
+color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.reglamento {
+    font-size: 20px;
+}
+
+h1 {
+    color: #2f4f4f;
+    font-size: 50px;
+}
+
+h3 {
+    color: darkslategrey;
+    font-size: 35px;
+}
+
+.puntoPerdido {
+    list-style: circle;
+}
+
+li .puntoPerdido {
+    font-size: 20px;
+}
+
+.btn_menu {
+    display: none;
+}
+
+.comportamientoForm {
+    margin: 20px;
+}
+
+
+.logo {
+    display: none;
+}
+
+.paletas,
+.wpt,
+.cancha {
+    width: 95%;
+}
+
+.redes {
+    width: 65%;
+}
+
+.descripciondeFoto {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+table,
+th,
+td {
+    border: 1px solid #000000;
+    border-collapse: collapse;
+}
+
+.formulario {
+    background: linear-gradient(#97dbff, #8ad6ff, #5eaeda, #5090b3);
+    margin-left: 200px;
+    display: inline-grid;
+    padding: 70px;
+    align-items: baseline;
+    justify-items: stretch;
+}
+
+.compras {
+    background: linear-gradient(#97dbff, #8ad6ff, #5eaeda, #5090b3);
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.tienda {
+
+    padding: 5px;
+    margin: 5px;
+}
+
+table tr:nth-child(even):not(:has(th)) {
+    background-color: #6adff7
+}
+
+th {
+    color: #FFFFFF;
+    background-color: #104b6d;
+}
+.indumentaria1, .indumentaria3{
+    width: 45%;
+    position: relative;
+    top: 5px;
+    left: 15px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+
+.indumentaria3{
+    top: 10px;
+}
+.indumentaria2  {
+width: 50%;
+position: relative;
+top: 165px;
+left: 25px;
+}
+
+.jugadores, .calendario, .WorldPadelTour, .torneos {
+    width: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        display: flex;
+        width: 25%;
+        position: center;
+        margin-left: 37%;
+        border-radius: 4px;
+    }
+
+    .contenedor {
+        flex-direction: column;
+
+    }
+
+    .contenedorDerecho {
+        width: 100%;
+    }
+
+    .contenedorIzquierdo {
+        width: 100%;
+    }
+
+    .botones {
+        display: none;
+    }
+
+    .btn_menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+    }
+
+    .navegacion {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        color: white;
+    }
+    .inicio{
+        display: none;
+    }
+
+    .navegacion {
+        border-bottom: 4px solid black;
+        display: flex;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
+    ul.botonera {
+        width: 99%;
+        margin: 1px;
+        padding: 0px;
+        flex-direction: column;
+        position: absolute;
+        top: 58px;
+        right: 0px;
+        background-color: #000000;
+        border-radius: 3px;
+    }
+
+    ul.botonera li {
+        list-style: none;
+        width: 95%;
+        border-radius: 3px;
+
+    }
+
+    ul.botonera li .botones {
+        text-decoration: none;
+        color: black;
+    }
+
+    ul.botonera.show {
+        display: flex;
+        flex-direction: column;
+    }
+
+    ul.botonera.show li {
+        display: flex;
+
+    }
+
+    ul.botonera li {
+        list-style: none;
+        margin: 0px 0px;
+        padding: 15px 20px;
+        float: left;
+    }
+
+    #introduccion {
+        margin-left: 20%;
+    }
+
+    .paletas,
+    .wpt,
+    .cancha {
+        width: 85%;
+    }
+
+    .redes {
+        width: 50%;
+    }
+
+    .formulario {
+        margin-left: 15px;
+        margin-right: 10px;
+    }
+
+    .calendario,
+    .jugadores {
+        width: 95%;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .indumentaria {
+        width: 95%;
+        margin-left: 15px;
+    }
+
+}

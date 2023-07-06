@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="utf-8" />
+    <title>PASSION PADEL | Torneos | World Padel Tour</title>
+
+</head>
+
+<body>
+    <header class="navegacion">
+        <div class="btn_menu"><a>MENÚ</a></div>
+        
+        <p class="inicio">PASSION PADEL | WPT |</p>
+
+        <ul class="botonera">
+            <li class="botones"><a href="index.html">Inicio |</a></li>
+            <li class="botones"> <a href="paletas.html">Paletas e Indumentaria |</a></li>
+            <li class="botones"> <a href="sedesytorneos.html">Sedes y Torneos | #Word Padel Tour</a></li>
+            <li class="botones"> <a href="#redes">Contacto |</a></li>
+        </ul>
+    </header>
+
+    <div class="contenedor">
+        <aside class="contenedorIzquierdo">
+            <img class="logo" src="img/logo.jpeg">
+            <h1>Argentina y el boom del Padel Amateur</h1>
+            <article>
+                <p class="torneos">
+                    Argentina se ha convertido en uno de los principales paises exponentes del Padel a nivel mundial.
+                    Es a partir de los años 90 que el deporte creció y se hizo furor en la Argentina. Actualmente, el
+                    Padel
+                    amateur tiene una gran
+                    actuación en torneos locales, provinciales y nacionales a lo largo y ancho del país, donde distintas
+                    asociaciones y federaciones
+                    planifican un calendario de competencia a llevarse a cabo durante el transcurso del año.
+                </p>
+
+                <p class="torneos">
+                    Existen diferentes sedes donde tienen lugar los torneos provinciales y nacionales, las principales
+                    son:
+                    Mar del Plata, La Plata, Rosario,
+                    Cordoba, Mendoza, San Luis. Los torneos provinciales se realizan durante el transcurso del año y
+                    otorgan
+                    puntaje segun la instancia alcanzada
+                    que servirán para clasificar a los torneos nacionales que se realizan a fin de año en donde compiten
+                    todas las asociaciones del pais.
+                </p>
+            </article>
+
+            <h3>¿Como inscribirse a un Torneo?</h3>
+
+            <p class="torneos">
+                Para poder inscribirse a un torneo provincial debes completar el siguiente formulario con los datos
+                requeridos:
+            </p>
+
+            <h3>Formulario de inscripcion:</h3>
+            <form class="formulario" id="formulario">
+                <label for="nombre J1">Nombre Jugador 1</label>
+                <input type="text" id="nombre1" name="nombre1" pattern="[a-z A-Z]*" required>
+                <label for="Fecha 1">Fecha de nacimiento J1</label>
+                <input type="date" id="fecha" name="fecha1" required>
+                <label for="nombre J2">Nombre Jugador 2</label>
+                <input type="text" id="nombre2" name="nombre2" pattern="[a-z A-Z]*" required>
+                <label for="Fecha 2">Fecha de nacimiento J2</label>
+                <input type="date" id="fecha" name="fecha2" required>
+
+                <label class="categoria" for="categorias">¿Categoria?</label>
+                <select class="categorias" name="categorias" id="categorias">
+                    <option class="septima" value="septima">Septima</option>
+                    <option class="sexta" value="sexta">Sexta</option>
+                    <option class="quinta" value="quinta">Quinta</option>
+                    <option class="cuarta" value="cuarta">Cuarta</option>
+                    <option class="tercera" value="tercera">Tercera</option>
+                    <option class="segunda" value="segunda">Segunda</option>
+                    <option class="primera" value="primera">Primera</option>
+                </select>
+
+                <div class="comportamientoForm">
+                    <input type="submit" value="Enviar Formulario">
+                    <button id="btn-reset">Vaciar</button>
+                    <button id="borrarUltimo">Borrar ultimo</button>
+                </div>
+                <p id="captcha"></p>
+
+                <input id="inputCaptcha" type="text" required>
+                <button id="refrescar">Refrescar Captcha</button>
+            </form>
+            <p id="aviso"></p>
+
+
+            <h3>Inscriptos</h3>
+
+            <table id="inscriptos">
+                <thead class>
+                    <tr>
+                        <td>Nombre Jug 1</td>
+                        <td>Fecha Jug 1</td>
+                        <td>Nombre Jug 2</td>
+                        <td>Fecha Jug 2</td>
+                    </tr>
+                </thead>
+            </table>
+
+
+            <h2>¿Queres saber cuales son las localidades y sedes de la region donde se juega nuestro deporte?</h2>
+            <ul class="sedes">
+                <li>Estadio club de padel (Necochea)</li>
+                <li>Open padel (Necochea)</li>
+                <li>Sanset club (Necochea)</li>
+                <li>Master padel (Balcarce)</li>
+                <li>Paddle la 13 (Balcarce)</li>
+                <li>Club Nahuel (Tandil)</li>
+                <li>Tiempo con partido(Tandil)</li>
+
+                <li>Arroyo Blanco (Tandil)</li>
+            </ul>
+            <ul class="sedes">
+                <li>Legon (Tandil)</li>
+                <li>FYM (Tandil)</li>
+                <li>Beduinos (Tandil)</li>
+                <li>Murcielago padel (Ayacucho)</li>
+                <li>Padel time (Olavarria)</li>
+                <li>El nuevo jardin (Olavarria)</li>
+                <li>Oasis padel (Olavarria)</li>
+                <li>Las terrazas (Olavarria)</li>
+            </ul>
+
+
+            <h1>World Padel Tour</h1>
+            <p class="WorldPadelTour">
+                El World Padel Tour (WPT) es un campeonato mundial y profesional de Padel, y uno de los más importantes
+                debido a que reune a los mejores
+                jugadores y jugadoras de nivel internacional. Los torneos de este circuito comenzaron en el año 2013 y
+                se convirtieron en el circuito profesional de
+                referencia.
+            </p>
+
+            <p class="WorldPadelTour">Cada año se realizan entre 15 a 25 torneos WPT y un master final en donde se
+                enfrentan las mejores parejas del ranking.</p>
+            <h3>Calendario 2023 - WPT</h3>
+            <img class="calendario" src="img/calendario.jpeg" />
+
+            <h2>Argentina en lo más alto del Padel Mundial</h2>
+            <p class="WorldPadelTour">
+                El catamarqueño Agustín Tapia junto con su compañero Arturo Coello, tras la victoria de 7 torneos
+                consecutivos se convirtieron en la
+                pareja más joven de la historia en alcanzar el número 1 del ranking mundial. La dupla se impuso contra
+                los dueños de la corona por un 6-3, 6-7, 7-6 y se treparon
+                a la cima del World Padel Tour.
+            </p>
+            <img class="jugadores" src="img/jugadores.jpeg" />
+
+            <p class="WorldPadelTour">
+                Tras 31 partidos sin conocer la derrota, la dupla conformada por el argentino y el español lograron
+                bajar de lo más alto a los vigentes monarcas del
+                circuito que desde el 2020 ostentaron ese lugar privilegiado, poniendo de rodillas a cualquiera que se
+                les ponia por delante.
+            </p>
+            </aside>
+
+            <aside class="contenedorDerecho">
+                <p class="descripciondeFoto">Test de paletas</p>
+                <a href="paletas.html"><img class="paletas" src="img/paletas.jpg" /></a>
+                <p class="descripciondeFoto">Novedades: World Padel Tour</p>
+                <a href="sedesytorneos.html"><img class="wpt" src="img/wpt.jpeg" /></a>
+                <p class="descripciondeFoto">Informacion de cancha</p>
+                <a href="index.html"><img class="cancha" src="img/cancha.jpeg" alt="cancha de padel"></a>
+                <p class="descripciondeFoto">Nuestras redes</p>
+                <a id="redes"><img class="redes" src="img/redes.png"></a>
+            </aside>
+    </div>
+
+    <footer class="pieDePagina">
+        <span>| PASSION PADEL | Revista online que brinda información sobre el Padel, consejos para elegír la paleta
+            ideal y las ultimas novedades del Pádel profesional </span>
+
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/formulario.js"></script>
+</body>
+
+</html>
